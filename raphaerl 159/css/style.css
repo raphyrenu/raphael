@@ -1,0 +1,76 @@
+.raphael{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    width: 50vh;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px green;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    
+}
+#renu{
+    margin: 20px;
+    text-decoration: underline;
+    font-size: 50px;
+    color: paleturquoise;
+    box-shadow: 0 0 40px gold;
+    border-radius: 30px;
+}
+button {
+    border-radius: 30px;
+    background-color: green;
+    width: 35%;
+    margin: 20px 0 20px 0;
+    font-size: 10px;
+    box-shadow: 0 0 10px grey;
+    height: 3vh;
+    
+    
+}
+
+
+input {
+    margin-bottom: 15px;
+    /* box-shadow: 0 0 15px yellowgreen; */
+    /* border-radius: 10px; */
+    width: 70%;
+    height: 4vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px gray;
+}
+label{
+    margin-bottom: 10px;
+    font-size: 30px;
+   
+}
+
+input:focus {
+    box-shadow: 0 0 15px ;
+    border-top: none;
+    border-left: none;
+}
+input:hover{
+    box-shadow: none;
+    border-bottom: 2px solid green;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+#rocky {
+    background-color: red;
+    margin-right: 20px;
+}
+input:focus {
+    border: none;
+    font-size: 20px;
+   
+}
