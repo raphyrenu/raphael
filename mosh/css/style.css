@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.net {
+    width: 50vh;
+    border: 2px solid green;
+    height: 20vh;
+    box-shadow: 0 0 20px wheat;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    font-size: large;
+    transition: transform 4s, box-shadow 6s;
+    text-overflow: ellipsis;
+    
+}
+footer p , img{
+    display: inline-block;
+}
+img{
+    width: 80px;
+    border: 4px rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    border-radius: 100%;
+    margin-bottom: 12px;
+}
+footer{
+    background-color: blue;
+    width: 100%;
+    height: 63%;
+    align-items: center;
+    border-radius: inherit;
+    display: flex;
+    margin-top: 4px;
+    
+    box-sizing: border-box;
+    font-size: 60px;
+    margin-bottom: 0;
+   position: relative;
+   border-top: 2px solid grey; 
+   
+   
+}
+img{
+    margin-right: 20px;
+    size: 40px 50px;
+}
+footer p {
+    color: white;
+    transition: box-shadow 2s;
+    white-space: nowrap;
+
+}
+.net:hover {
+    transform: rotate(-5deg);
+    box-shadow: 0 0 40px brown;
+
+}
+
+
+.net:hover footer p {
+    text-transform: uppercase;
+    font-size: 40px;
+    border: 4px dashed green;
+    box-shadow: 0 0 30px goldenrod;
+    border-radius: 20%;
+    padding: 20px;
+    
+}
+footer p::selection{
+    background-color: green;
+    color: blue;
+}
+.net:hover img{
+    transform: scale(1.5);
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+p {
+    margin-left:  20px;
+    margin-right: 20px;
+    color: rgba(7, 2, 75, 1);
+}
+.net:hover p {
+    text-transform: capitalize;
+    box-shadow: 0 0 20PX gray;
+}
