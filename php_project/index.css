@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+  background-color: rgba(0, 255, 255, 0.47);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff0e;
+  box-shadow: 0 0 30px rebeccapurple;
+  text-align: center;
+
+  box-sizing: border-box;
+  padding: 0 20px 70px;
+  border-radius: 40px;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: xx-large;
+  box-shadow: 0 0 10px grey;
+  border-radius: 40px;
+  margin-top: 70px;
+}
+input {
+  margin-top: 40px;
+  height: 5vh;
+  width: 80%;
+  border-radius: 20px;
+  border: 2px blue;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+label {
+  margin-top: 80px;
+  color: rgba(255, 0, 0, 0.412);
+}
+button {
+  margin-top: 70px;
+  background-color: blue;
+  width: 15vh;
+  height: 5vh;
+  border-radius: 30px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
